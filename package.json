@@ -1,0 +1,37 @@
+{
+  "name": "vite-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "cypress run --component --browser chrome",
+    "test:open": "cypress open --component --browser chrome",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ui5/webcomponents": "2.13.2",
+    "@ui5/webcomponents-base": "2.13.2",
+    "@ui5/webcomponents-fiori": "2.13.2",
+    "@ui5/webcomponents-icons": "2.13.2",
+    "@ui5/webcomponents-react": "2.13.1",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.10",
+    "@types/react-dom": "19.1.7",
+    "@vitejs/plugin-react": "4.7.0",
+    "@ui5/webcomponents-cypress-commands": "2.13.1",
+    "cypress": "14.5.4",
+    "eslint": "9.33.0",
+    "eslint-plugin-react-hooks": "5.2.0",
+    "eslint-plugin-react-refresh": "0.4.20",
+    "globals": "16.3.0",
+    "typescript": "5.8.3",
+    "typescript-eslint": "8.39.1",
+    "vite": "6.3.5"
+  }
+}
